@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1b1b1b;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.swiper-slide {
+    background: #000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.swiper-pagination {
+    position: relative;
+    margin-top: 10px;
+}
